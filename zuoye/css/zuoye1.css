@@ -1,0 +1,373 @@
+
+#box{
+    width: 100%;
+    height: 5302px;
+    background: slategray;
+}
+/* --------------- 样式 --------------- */
+.juzhong{
+    margin:auto;
+    width:1200px;
+    height:100%;
+    /* background-color: chocolate; */
+}
+.tupian{
+    display: block;
+    margin:auto;
+    margin-top: 42px;
+    margin-bottom: 26px;
+}
+.pp1{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+}
+.pp2{
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 50px
+}
+/* --------------- 导航 --------------- */
+.header{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+    float: left;
+}
+.header .juzhong>h1{
+    text-indent: -9999px;
+    width: 420px;
+    height: 100%;
+    background: url(../images/images/logo.png);
+    background-repeat: no-repeat;
+    /* background-position: 0 center; */
+    /* display: inline-block; */
+    float: left;
+}
+.header .juzhong>ul{
+    float: right;
+}
+.shoyebiaoti{
+    float: left;
+    width: 90px;
+    height: 100%;
+    font-size: 12px;
+    line-height: 80px;
+}
+.biaoti1{
+    display: block;
+    text-align: center;
+}
+.biaoti2{
+    display: none;
+    text-align: center;
+}
+.shoyebiaoti:hover .biaoti1{
+    display: none;
+    width: 90px;
+    height: 80px;
+}
+.shoyebiaoti:hover .biaoti2{
+    display: block;
+    background-color: brown
+}
+/* --------------- 轮播 --------------- */
+.lunbo{
+    width: 100%;
+    height: 448px;
+    background: url(../images/images/56f3527bb57ce.jpg);
+    background-position: center center;
+}
+/* --------------- 内容1 --------------- */
+.neirong1{
+    height: 726px;
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+.neirong1 .nei1{
+    width: 1142px;
+    height: 440px;
+    margin: auto;
+}
+.neirong1 .nei1 .xxx{
+    float: left;
+    width: 352px;
+    height: 218px;
+    background: yellow;
+    margin-bottom: 4px;
+    margin-right:43px;
+    position: relative;
+    overflow: hidden;
+}
+.neirong1 .nei1 .xxx>img{
+    position: relative;
+    float: left;
+}
+
+.neirong1 .nei1 .xxx .ddd{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 22px;
+    text-align: center;
+    line-height: 71px;
+    transform: translate(-50%,-50%);
+    width: 228px;
+    height: 71px;
+    background-color:rgba(49, 171, 228, 0.8)
+}
+.neirong1 .nei1 .two .ddd{
+    background-color:rgba(6, 4, 158, 0.849)
+
+}
+.neirong1 .nei1 .three .ddd{
+    background-color:rgba(251, 255, 0, 0.849)
+
+}
+.neirong1 .nei1 .four .ddd{
+    background-color:rgba(241, 8, 203, 0.849)
+
+}
+.neirong1 .nei1 .Five .ddd{
+    background-color:rgba(241, 8, 8, 0.849)
+
+}
+.neirong1 .nei1 .six .ddd{
+    background-color:rgba(0, 255, 34, 0.849)
+
+}
+.neirong1 .nei1 .xxx .bbb .bbb1{
+    font-size: 12px;
+    line-height: 20px;
+    color:black;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.neirong1 .nei1 .xxx .bbb .bbb2{
+    font-size: 12px;
+    line-height: 20px;
+    color:blue;
+    text-align: center;
+    position: absolute;
+    bottom:10px;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.neirong1 .nei1 .xxx .bbb{
+    position: absolute;
+    /* display: none; */
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    transition: top 0.7s;
+    background: #58bc58;
+    overflow: hidden;
+
+}
+.neirong1 .nei1 .xxx:hover .bbb{
+    /* display:block; */
+    top: 0;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+
+/* --------------- 内容2 --------------- */
+.neirong2{
+    height: 762px;
+    width: 100%;
+    background: #ebeff1;;
+    overflow: hidden;
+}
+.neirong2 .nei1{
+    width: 1138px;
+    height: 502px;
+
+}
+.neirong2 .nei1 .xxx{
+    width: 283px;
+    height: 166px;
+    float: left;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+.neirong2 .nei1 .xxx .bb1{
+    display: block;
+}
+.neirong2 .nei1 .xxx .bb2{
+    display: none;
+}
+.neirong2 .nei1 .xxx:hover .bb1{
+    display: none;
+}
+.neirong2 .nei1 .xxx:hover .bb2{
+    display: block;
+}
+
+/* --------------- 内容3 --------------- */
+.neirong3{
+    height: 682px;
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+.neirong3 .juzhong .nei1{
+    width: 1138px;
+    height: 423px;
+}
+.neirong3 .juzhong .nei1 .xxx{
+    width: 283px;
+    height: 211px;
+    margin-right: 1px;
+    margin-right: 1px;
+    float: left;
+
+}
+.neirong3 .juzhong .nei1 .xxx>img{
+    width: 283px;
+    height: 211px;
+
+}
+
+/* --------------- 内容4 --------------- */
+.neirong4{
+    height: 800px;
+    width: 100%;
+    background: url(../images/images/ind_news_bg.jpg);
+    overflow: hidden;
+    background-position:  center center;
+}
+.neirong4 .juzhong .nei1{
+    width: 1144px;
+    height: 530px;
+    float: left;
+}
+.neirong4 .juzhong .nei1 .xxx{
+    width: 550px;
+    height: 166px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    background-color: aqua;
+    float: left;
+    
+}
+
+
+
+/* --------------- 内容5 --------------- */
+.neirong5{
+    height: 912px;
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+.neirong5 .juzhong .nei1{
+    width: 1140px;
+    height: 130px;
+    border-bottom:2px solid #e6e6e6;
+    /* margin: 0 auto; */
+}
+.neirong5 .juzhong .nei1 .xxx{
+    width: 285px;
+    height: 100%;
+    float: left;
+    text-align: center;
+    /* border-bottom:1px solid blue; */
+}
+.neirong5 .juzhong .nei1 .xxx .pp1 {
+    font-size: 10px;
+    margin-top: 16px;
+}
+
+.neirong5 .juzhong .nei1 .bbb{
+    display:inline-block;
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    background: url(../images/images/exp_xtb.png);
+}
+
+.neirong5 .juzhong .nei1 .bbb:hover {
+    position: relative;
+
+}
+.neirong5 .juzhong .nei1 .bbb:hover {
+    background-position: -80px 0;
+}
+.neirong5 .juzhong .nei1 .two {
+    background-position: 0 -80px;
+}
+.neirong5 .juzhong .nei1 .two:hover {
+    background-position: -80px -80px;
+}
+.neirong5 .juzhong .nei1 .three{
+    background-position: 0 -160px;
+}
+.neirong5 .juzhong .nei1 .three:hover {
+    background-position: -80px -160px;
+}
+.neirong5 .juzhong .nei1 .four {
+    background-position: 0 -240px;
+}
+.neirong5 .juzhong .nei1 .four:hover {
+    background-position: -80px -240px;
+}
+/* --------------- 内容6 --------------- */
+.neirong6{
+    height: 224px;
+    width: 100%;
+    background:url(../images/images/blue-bg.png)
+}
+.neirong6 .juzhong .nei1{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.neirong6 .juzhong .nei1 .xxx{
+    width: 399px;
+    height: 132px;
+    border-right: 1px solid #58bc58;
+    float: left;
+    margin-top: 64px;
+    
+}
+.neirong6 .juzhong .nei1 .xxx .bbb1{
+    position: relative;
+    text-align: center;
+}
+
+.neirong6 .juzhong .nei1 .xxx .bbb1 .span1{
+    font-size: 70px;
+    position: relative;
+    color: #fff;
+    
+}
+.neirong6 .juzhong .nei1 .xxx .bbb1 .span2{
+    width: 100%;
+    height: 2px;
+    background: url(../images/images/blue-bg.png);
+    position: absolute;
+    top: 48%;
+    left: 0px;
+}
+.neirong6 .juzhong .nei1 .xxx>p{
+    text-align: center;
+    font-size: 15px;
+    color: #fff
+
+}
+
+/* --------------- 内容7 --------------- */
+.neirong7{
+    height: 662px;
+    width: 100%;
+    background: #fff;
+}
