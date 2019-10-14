@@ -1,0 +1,93 @@
+#login-2box{
+    .login_matter{
+        .main{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 35px;
+            margin-bottom:60px;
+            .loging_left{
+                img{
+                margin-left: 120px;
+
+                }
+            }
+            .loging_right{
+                width: 405px;
+                height: 400px;
+                border: 1px solid #dddddd;
+                padding: 35px;
+                box-sizing: border-box;
+                position: relative;
+                hr:nth-of-type(1){
+                    width: 300px;
+                    border-style: dotted;
+                    color: #dddddd;
+                    margin-bottom:25px; 
+                    
+                }
+                h4{
+                    position: absolute;
+                    font-size: 20px;
+                    font-weight: normal; 
+                    color: #4d3d35;
+                    top: 22px;
+                    left: 60px;
+                    background: #ffffff;
+                    padding-left:10px ;
+                    padding-right:10px ;
+                }
+                input{
+                    margin-top: 15px;
+                    width: 300px;
+                    height: 30px;
+                }
+                p{
+                    input{
+                        width: 20px;
+                        height: 12px;;
+                    }
+                    font-size: 12px;
+                    color: #333333;
+                    margin-bottom: 15px;
+                }
+                #loging{
+                    width: 304px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    font-size: 18px;
+                    color: #ffffff;
+                    background: #de0000;
+                    cursor:pointer;
+                    margin-bottom: 15px;
+
+                }
+                span{
+                    font-size: 12px;
+                    color: #3472b2;
+                    margin-right:15px; 
+                    a{
+                        color: #3472b2;
+
+                    }
+                }
+
+                hr:nth-of-type(2){
+                    margin-top: 15px;
+                    margin-bottom: 10px;
+                    width: 401px;
+                    position: relative;
+                    left: -36px;
+                    border-style: dotted;
+                    color: #dddddd;
+                }
+                .qita{
+                    margin-bottom: 5px;
+                    font-size: 12px;
+                    color: #999999;
+                }
+            }
+        }
+        
+    }
+}

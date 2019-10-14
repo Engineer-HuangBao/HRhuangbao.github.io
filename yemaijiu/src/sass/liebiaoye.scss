@@ -1,0 +1,166 @@
+#box{
+    width: 100%;
+    height: 100%;
+    .middle{
+        .main{
+            .centen{
+            margin-top: 10px ;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        .neirong{
+            width: 220px;
+            height: 380px;
+            border: 1px #ededed solid;
+            margin-right: 30px;
+            margin-bottom:20px; 
+            background: #fff;
+            z-index: 999;
+            .bigtp{
+                position: relative;
+                width: 220px;
+                height: 200px;
+                img{
+                    width: 220px;
+                    height: 200px;
+                    z-index: 3;
+                }
+                .kuang{
+                    width: 220px;
+                    height: 0px;
+                    overflow: hidden;
+                    background: #ff870070;
+                    z-index: 20;
+                    position: absolute;
+                    bottom: 0;
+                    display: flex;
+                    transition-duration: 0.5s;
+                    div{
+                        flex: 1;
+                        color: #474747;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    div:nth-child(1){
+                        border-right: 1px solid #999999;
+                    }
+
+                }
+            }
+            .littletp{
+                width: 220px;
+                height: 40px;
+                display: flex;
+                img{
+                    width: 40px;
+                    height: 38px;
+                    display: block;
+                    background: #ff0000;
+                    margin: 2px 5px;
+                    border: 1px solid #fff;
+                }
+                .littlxx{
+                    border: 1px solid orangered;
+
+                }
+
+            }
+
+            .bigdiv{
+                background: #fff;
+                width: 220px;
+                height: 135px;
+                box-sizing: border-box;
+                padding: 15px 9px;
+                .div1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    a{
+                        text-decoration: none;
+                        color: #ff0000;
+                        font-size: 13px;
+                        line-height: 13px;
+                    }
+                    span{
+                        line-height: 11px;
+                        font-size: 11px;
+                        color: #969696;
+                    }
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 12px;
+                    line-height: 17px;
+                    color: #474747;
+                    margin: 11px 0;
+                }
+                .div2{
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    div{
+                        hr{
+                            border-style: solid;
+                            width: 8px;
+                            color: #ff0000;
+                            margin-bottom: 2px;
+                            margin-right: 5px;
+                        }
+                    }
+                    a{
+                        color: #888888;
+                        font-size: 11px;
+                    }
+                    span{
+                        line-height: 11px;
+                        font-size: 11px;
+                        color: #969696;
+                        position: absolute;
+                        right: 0px;
+                    }
+
+                }
+                .div3{
+                    margin-top: 10px;
+                    position: relative;
+                    align-items: center;
+                    display: flex;
+                    div{
+                        font-size: 10px;
+                        line-height: 10px;
+                        padding: 3px;
+                        background: #ff3800;
+                        color: #fff;
+
+                    }
+                    img{
+                        width: 10px;
+                        height: 10px;
+                        margin: 0px 4px;
+                    }
+                    span{
+                        position: absolute;
+                        right: 0px;
+                    }
+
+                }
+
+
+
+            }
+        }
+        .neirong:nth-of-type(4n){
+            margin-right: 0px;
+        }
+        .neirong:hover{
+            border: #ff3800 1px solid;
+        }
+        .neirong:hover .bigtp>.kuang{
+            height: 40px;
+        }
+        }
+    }
+    }
+}

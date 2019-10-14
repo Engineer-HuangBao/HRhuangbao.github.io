@@ -1,0 +1,207 @@
+#box{
+    width: 100%;
+    height: 100%;
+    #middle{
+        .main{
+            padding-top:20px ;
+
+            .bigbox{
+                width: 100%;
+                border: 5px solid #e7e7e7;
+                box-sizing: border-box;
+                .MMB-one{
+                    padding-left:15px;
+                    height: 40px;
+                    border-bottom: 2px solid #85726c;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    p:nth-of-type(1){
+                        b{
+                            margin-left: 5px;
+                        }
+                    }
+                    p:nth-of-type(2){
+                        width: 68px;
+                        font-size: 12px;
+                        line-height: 18px;
+                        text-align: center;
+                        border-radius: 10px;
+                        height: 18px;
+                        background: #c75050;
+                        color: #fff;
+                        
+                    }
+                }
+                .MMB-tow{
+                    width: 100%;
+                    font-size: 13px;
+                    height: 35px;
+                    background: #f1eeeb;
+                    ul{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        line-height: 35px;
+                        .MMTT-one{flex: 1;
+                            text-align: center;
+                        }
+                        .MMTT-two{flex:5;
+                        text-align: center}
+                        .MMTT-three,
+                        .MMTT-six,
+                        .MMTT-five,
+                        .MMTT-four{flex:2;
+                        text-align: center;}
+                    }
+                }
+
+
+
+                .MMB-three{
+                    .MMBT-content{
+                        .content{
+                            height: 125px;
+                            border-bottom: 2px dotted #999999;
+                            border-top: 2px dotted #999999;
+                            // background: yellow;
+                            div{
+                                height: 100%;
+                                ul{
+                                    height: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    .C-lione{
+                                        flex: 1;
+                                        text-align: center;
+
+                                    }
+                                    .C-litwo{
+                                        flex: 5;
+                                        text-align: center;
+                                        align-items: center;
+                                        margin-left: 30px;
+                                        display: flex;
+
+                                        img{
+                                            height: 80px;
+                                        }
+                                        span{
+                                        // line-height: 80px
+
+                                        }
+                                    }
+                                    .C-lithree,
+                                    .C-lifour,
+                                    .C-lifive,
+                                    .C-lisix{
+                                        flex: 2;
+                                        text-align: center;
+                                    }
+
+                                    .C-lifour{
+                                        display: flex;
+                                        justify-content: center;
+                                        .jian,.jia{
+                                            width: 12px;
+                                            height: 24px;
+                                            border:1px solid #d3c6c0;
+                                            background: #f1edeb;
+                                        }
+                                        .zhi{
+                                            width: 30px;
+                                            height: 22px;
+                                            border: 1px solid #bea9a0;
+                                            text-align: center;
+                                        }
+                                        .jia{
+                                            border-left: 0px solid
+                                        }
+                                        .jian{
+                                            border-right: 0px solid
+                                        }
+                                    }
+
+                                    .C-lisix{
+                                        color: blue;
+                                        cursor:pointer;
+                                    }
+
+
+
+                                }
+                            }
+                        }
+                        .content:nth-of-type(n+2){
+                            border-top: 0px dotted #999999;
+                        }
+                    }
+                }
+
+
+                .MMB-four{
+                    padding-left:15px ;
+                    height: 70px;   
+                    background: #f1eeeb;
+                    border: 1px solid #cccccc;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .MBBF-left{
+                        ul{
+                            display: flex;
+                            font-size: 12px;
+                            li{
+                                input{margin-right:4px;}
+                            }
+                            li:nth-of-type(2){
+                                margin-left: 20px;
+                                cursor:pointer;
+                            }
+                        }
+                    }
+                    .MBBF-right{
+                        ul{
+                            display: flex;
+                            align-items: center;
+                            li{
+                                margin: 0px 15px;
+                                font-size: 12px;
+                                span{
+                                    font-size: 15px;
+                                    color: #dc4242;
+                                }
+                               
+                            }
+                            li:nth-of-type(3){
+                                display: flex;
+                                div{
+                                    font-size:22px;
+                                    color: #fff;
+                                    text-align: center;
+                                    background: #dc4242;
+                                    width: 210px;
+                                    height: 50px;;
+                                    line-height: 50px;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+
+                }
+                .MMB-five{
+                }
+                .MMB-six{
+                }
+
+            }
+            
+
+
+
+
+
+        }
+    }
+}

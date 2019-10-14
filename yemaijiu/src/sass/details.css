@@ -1,0 +1,217 @@
+#box {
+  width: 100%;
+  height: 100%;
+}
+
+#box #middle {
+  background: #fbfaf9;
+}
+
+#box #middle .main {
+  display: flex;
+  padding: 20px 0px;
+}
+
+#box #middle .main .BMM_left .BMML-top {
+  width: 380px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 0px 0px 7px -3px black;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+#box #middle .main .BMM_left .BMML-top .littlebox {
+  width: 110px;
+  height: 180px;
+  position: relative;
+}
+
+#box #middle .main .BMM_left .BMML-top .littlebox .img {
+  width: 110px;
+  height: 180px;
+}
+
+#box #middle .main .BMM_left .BMML-top .littlebox .chuanti {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  z-index: 2;
+  cursor: move;
+}
+
+#box #middle .main .BMM_left .BMML-top .littlebox .zhezhao {
+  position: absolute;
+  width: 110px;
+  height: 90px;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+#box #middle .main .BMM_left .BMML-top .bigbox {
+  position: absolute;
+  right: -220px;
+  width: 220px;
+  height: 180px;
+  overflow: hidden;
+  display: none;
+}
+
+#box #middle .main .BMM_left .BMML-top .bigbox img {
+  width: 220px;
+  height: 360px;
+  position: absolute;
+}
+
+#box #middle .main .BMM_left .BMML-bottom {
+  width: 380px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box #middle .main .BMM_left .BMML-bottom .BMMLB-left,
+#box #middle .main .BMM_left .BMML-bottom .BMMLB-right {
+  width: 20px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  background: #fdfcfc;
+}
+
+#box #middle .main .BMM_left .BMML-bottom .BMMLB-middle {
+  width: 320px;
+  height: 100%;
+  overflow: hidden;
+}
+
+#box #middle .main .BMM_left .BMML-bottom .BMMLB-middle ul {
+  height: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+#box #middle .main .BMM_left .BMML-bottom .BMMLB-middle ul li {
+  margin: 0px 5px;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  text-align: center;
+}
+
+#box #middle .main .BMM_left .BMML-bottom .BMMLB-middle ul li img {
+  height: 80px;
+  background: #fff;
+}
+
+#box #middle .main .BMM_right {
+  margin-left: 20px;
+}
+
+#box #middle .main .BMM_right h3 {
+  font-size: 12px;
+}
+
+#box #middle .main .BMM_right .BMMR-p1 {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #999999;
+}
+
+#box #middle .main .BMM_right .BMMR-p1 span {
+  color: #3699d8;
+}
+
+#box #middle .main .BMM_right hr {
+  width: 560px;
+  border: 1px solid;
+  color: #e6e1db;
+}
+
+#box #middle .main .BMM_right .BMMR-p2 {
+  margin: 10px 0px;
+  font-size: 12px;
+  color: #999999;
+}
+
+#box #middle .main .BMM_right .BMMR-p2 span:nth-of-type(1) {
+  color: #cc0000;
+}
+
+#box #middle .main .BMM_right .BMMR-p2 span:nth-of-type(2) {
+  color: #cc0000;
+  font-size: 26px;
+}
+
+#box #middle .main .BMM_right .gomai {
+  width: 560px;
+  height: 170px;
+  background: #ffffe8;
+  border: 1px dotted #fec083;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#box #middle .main .BMM_right .gomai .BMMRG-p {
+  margin: 10px 0px;
+  font-size: 12px;
+  color: #333333;
+}
+
+#box #middle .main .BMM_right .gomai .BMMRG-p input {
+  width: 90px;
+  height: 26px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+#box #middle .main .BMM_right .gomai .BMMRG-p span {
+  color: #cc0000;
+}
+
+#box #middle .main .BMM_right .gomai .shuliang {
+  font-size: 12px;
+  color: #333333;
+}
+
+#box #middle .main .BMM_right .gomai .shuliang .btn {
+  width: 16px;
+  height: 16px;
+  background: #f0ede9;
+  color: #8b8b8b;
+  line-height: 1px;
+}
+
+#box #middle .main .BMM_right .gomai .shuliang .zhi {
+  width: 24px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin: 5px;
+}
+
+#box #middle .main .BMM_right .gomai .jiaru {
+  margin-top: 13px;
+  width: 210px;
+  height: 45px;
+  background: #dc4343;
+  color: #fdfcfc;
+  font-size: 24px;
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#box #middle .main .BMM_right .shuoming {
+  margin-top: 35px;
+  font-size: 12px;
+  color: #957a67;
+}

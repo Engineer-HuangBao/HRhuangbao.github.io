@@ -1,0 +1,216 @@
+#box{
+    width: 100%;
+    height: 100%;
+    #middle{
+        background: #fbfaf9;
+        .main{
+            display: flex;
+            padding: 20px 0px;;
+
+            .BMM_left{
+                
+                .BMML-top{
+                    width: 380px;
+                    height: 400px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    // border: 1px solid black;
+                    box-shadow: 0px 0px 7px -3px black;
+                    box-sizing: border-box;
+                    background: #fff;
+                    .littlebox{
+                        width: 110px;
+                        height: 180px;
+                        position: relative;
+                        .img{
+                            width: 110px;
+                            height: 180px;
+                        }
+                        .chuanti{
+                            position: absolute;
+                            width: 100%;
+                            height: 100%;
+                            background: rgba(0, 0, 0, 0.5);
+                            opacity: 0;
+                            z-index: 2;
+                            cursor: move;
+                        }
+                        .zhezhao{
+                            position: absolute;
+                            width: 110px;
+                            height: 90px;
+                            background: rgba(0, 0, 0, 0.5);
+                            display: none;
+                        }
+                    }
+                    .bigbox{
+                        position: absolute;
+                        right: -220px;
+                        width: 220px;
+                        height: 180px;
+                        overflow: hidden;
+                        display: none;
+                        img{
+                            width: 220px;
+                            height: 360px;
+                            position: absolute;
+                        }
+                    }
+
+                }
+                .BMML-bottom{
+                    width: 380px;
+                    height: 100px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .BMMLB-left,
+                    .BMMLB-right{
+                        width: 20px;
+                        height: 50px;
+                        text-align: center;
+                        font-size: 20px;
+                        line-height: 50px;
+                        background: #fdfcfc;
+                        
+                    }
+                    .BMMLB-middle{
+                        width: 320px;
+                        height: 100%;
+                        overflow: hidden;
+                        ul{
+                            height: 100%;
+                            display: flex;
+                            justify-items: center;
+                            align-items: center;
+                            li{
+                                margin: 0px 5px;
+                                width: 80px;
+                                height: 80px;
+                                // background: #fdfcfc;
+                                background: #fff;
+
+                                text-align: center;
+                                img{
+                                    height: 80px;
+                                    background: #fff;
+                                }
+                            }
+                            
+                        }
+                    }
+
+
+
+                }
+            }
+            
+            .BMM_right{
+                margin-left:20px; 
+
+                h3{
+                    font-size: 12px;
+
+                }
+
+                .BMMR-p1{
+                    margin-top: 15px;
+                    
+                    font-size: 12px;
+                    color: #999999;
+                    span{
+                        color: #3699d8;
+                    }
+                }
+
+                hr{
+
+                    width: 560px;
+                    border: 1px solid;
+                    color: #e6e1db;
+                }
+
+                .BMMR-p2{
+                    margin: 10px 0px;
+
+                    font-size: 12px;
+                    color: #999999;
+                    span:nth-of-type(1){
+                        color: #cc0000;
+                    }
+                    span:nth-of-type(2){
+                        color: #cc0000;
+                        font-size: 26px;
+                    }
+                }
+
+                .gomai{
+                    width: 560px;
+                    height: 170px;
+                    background: #ffffe8;
+                    border: 1px dotted #fec083;
+                    box-sizing: border-box;
+                    padding: 10px;
+                    .BMMRG-p{
+                        margin: 10px 0px;
+                        font-size: 12px;
+                        color: #333333;
+                        input{
+                            width: 90px;
+                            height: 26px;
+                            padding-left: 10px;
+                            box-sizing: border-box;
+                        }
+                        span{
+                            color: #cc0000;
+                        }
+                    }
+                    .shuliang{
+                        font-size: 12px;
+                        color: #333333;
+                        .btn{
+                            width: 16px;
+                            height: 16px;
+                            background: #f0ede9;
+                            color: #8b8b8b;
+                            line-height: 1px;
+                        }
+                        .zhi{
+                            width: 24px;
+                            height: 20px;
+                            line-height: 20px;
+                            text-align: center;
+                            margin: 5px;
+                        }
+                    }
+                    .jiaru{
+                        margin-top:13px; 
+                        width: 210px;
+                        height: 45px;
+                        background: #dc4343;
+                        color: #fdfcfc;
+                        font-size: 24px;
+                        line-height: 45px;
+                        text-align: center;
+                        cursor:pointer;
+                    }
+
+
+
+                }
+
+                .shuoming{
+
+                    margin-top:35px ;
+                    font-size: 12px;
+                    color: #957a67;
+
+                }
+
+
+            }
+        }
+    }
+}
